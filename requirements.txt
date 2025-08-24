@@ -1,0 +1,5 @@
+requests
+pandas
+sqlalchemy
+dagster
+dagster-webserver

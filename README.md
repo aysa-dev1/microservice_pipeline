@@ -17,7 +17,7 @@ dagster dev -f .\pipeline\dagster_pipeline.py
 
 ---
 
-## Architektur-Übersicht
+## Architecture overview
 
 - Source:
   - Reddit API (tradestie.com) or Mock-data (switchable via `use_mock` in `etl/extract.py`).
@@ -35,7 +35,7 @@ dagster dev -f .\pipeline\dagster_pipeline.py
      - input: Liste von Dicts
      - target: SQLite (table `reddit_sentiment_trend`)
 
-### Architecture overview
+### diagramm
 ```
 [Reddit API]   [Mock Generator]
       \             /
